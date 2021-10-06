@@ -89,7 +89,8 @@ exports.update = (req, res) => {
         res.status(404).send({
           message: `Cannot update Expense with id=${id}. Maybe Expense was not found!`,
         });
-      } else res.send({ message: "Expense was updated successfully." });
+      } else
+        res.send({ data: data, message: "Expense was updated successfully." });
     })
     .catch((err) => {
       res.status(500).send({
