@@ -1,5 +1,5 @@
 # dynamicly-test
-In order to run, please run command: npm start, at the root.
+In order to run, please run command: "npm start", at the root. It will then run "npm run" on both server & client folders.
 
 Question 1)
 
